@@ -340,12 +340,12 @@ which in turn is identified/located
 through an *URI*.
 Here's how these operations are applied to resources:s
 
-+ **GET** /comment - Returns a list of all comments
-+ **GET** /comment/:id - Returns a comment with the given id
-+ **POST** /comment - Creates a new comment
-+ **PUT** /comment/:id - Updates a comment with the given id
-+ **PATCH** /comment/:id - Partially update a comment with the given id
-+ **DELETE** /comment/:id - Deletes a comment with the given id
++ **GET** /comments - Returns a list of all comments
++ **GET** /comments/:id - Returns a comment with the given id
++ **POST** /comments - Creates a new comment
++ **PUT** /comments/:id - Updates a comment with the given id
++ **PATCH** /comments/:id - Partially update a comment with the given id
++ **DELETE** /comments/:id - Deletes a comment with the given id
 
 This is an overview of how these are implemented.
 If you are curious or want to learn more
